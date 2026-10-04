@@ -1,9 +1,9 @@
 .theme-light,
 .theme-dark {
   --header-primary: #515151;
-  --header-secondary: #808080;
+  --header-secondary: #818181;
   --text-normal: #515151;
-  --text-muted: #808080;
+  --text-muted: #818181;
   --text-link: #0084d4;
   --text-link-low-saturation: #0065fe;
   --text-positive: #009885;
@@ -73,7 +73,7 @@
   --status-green-560: #009885;
   --white-400: #515151;
   --white-500: #515151;
-  --guild-boosting-pink: #bd55fa;
+  --guild-boosting-pink: #a664e2;
   --premium-perk-yellow: #946300;
   --premium-perk-purple: #bd55fa;
   --premium-perk-dark-blue: #0084d4;
@@ -81,7 +81,7 @@
   --premium-perk-blue: #0084d4;
   --premium-perk-green: #009885;
   --premium-perk-pink: #cc236d;
-  --premium-perk-orange: #ab6500;
+  --premium-perk-orange: #b26500;
   --status-green-400: #009885;
   --button-danger-background: #d22a38;
   --button-danger-background-hover: #d22a38;
@@ -149,20 +149,20 @@
   --background-mentioned: #94630019;
   --background-mentioned-hover: #94630014;
   --background-message-hover: #eeeeee3F;
-  --background-message-automod: #bd55fa0C;
-  --background-message-automod-hover: #bd55fa19;
+  --background-message-automod: #a664e20C;
+  --background-message-automod-hover: #a664e219;
   --background-message-highlight: #0084d414;
   --background-message-highlight-hover: #0084d40F;
-  --channels-default: #808080;
+  --channels-default: #818181;
   --channel-icon: #0084d499;
   --channel-text-area-placeholder: #adadad7F;
   --channeltextarea-background: #eeeeee;
   --activity-card-background: #e4e4e4;
   --textbox-markdown-syntax: #515151;
   --spoiler-revealed-background: #e4e4e4;
-  --spoiler-hidden-background: #808080;
+  --spoiler-hidden-background: #818181;
   --android-navigation-bar-background: #e4e4e4;
-  --android-ripple: #cccccc4C;
+  --android-ripple: #ffffff4C;
   --bg-mod-faint: #eeeeee;
   --bg-mod-subtle: #676767;
   --focus-primary: #0084d4;
@@ -170,7 +170,7 @@
   --interactive-muted: #adadad4C;
   --interactive-hover: #515151;
   --interactive-active: #515151;
-  --search-popout-option-non-text-color: #808080;
+  --search-popout-option-non-text-color: #818181;
   --__spoiler-background-color--hidden: #bdd0f8;
   --__spoiler-warning-background-color: #bd55fa;
 }
@@ -205,9 +205,9 @@ rect[mask="url(#svg-mask-status-offline)"] {
 :root {
   /* ---- Default Colors -- */
   --background: var(--background-secondary);
-  --text-default: #808080;
+  --text-default: #818181;
   --color-1: #d22a38;
-  --color-2: #ab6500;
+  --color-2: #b26500;
   --color-3: #946300;
   --color-4: #009f35;
   --color-5: #397458;
@@ -215,7 +215,7 @@ rect[mask="url(#svg-mask-status-offline)"] {
   --color-7: #0084d4;
   --color-8: #009885;
   --color-9: #0084d4;
-  --color-10: #bd55fa;
+  --color-10: #a664e2;
   --color-11: #515151;
   /* ---- HLJS Default -- */
   --hljs-attribute: var(--color-7);
@@ -253,7 +253,7 @@ rect[mask="url(#svg-mask-status-offline)"] {
   --hljs-params: var(--text-default);
   --hljs-params-attr: var(--hljs-params);
   /* --> Comment */
-  --hljs-comment: #808080;
+  --hljs-comment: #818181;
   --hljs-comment-doctag: var(--hljs-comment);
   /* --> String */
   --hljs-string: var(--color-4);

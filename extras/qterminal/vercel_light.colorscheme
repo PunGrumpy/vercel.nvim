@@ -14,7 +14,7 @@ Color=81,81,81
 Color=81,81,81
 
 [Color0]
-Color=204,204,204
+Color=255,255,255
 
 [Color1]
 Color=210,42,56
@@ -29,34 +29,34 @@ Color=148,99,0
 Color=0,132,212
 
 [Color5]
-Color=189,85,250
+Color=166,100,226
 
 [Color6]
 Color=0,152,133
 
 [Color7]
-Color=128,128,128
+Color=129,129,129
 
 [Color0Intense]
 Color=103,103,103
 
 [Color1Intense]
-Color=246,0,43
+Color=210,42,56
 
 [Color2Intense]
-Color=0,174,59
+Color=0,159,53
 
 [Color3Intense]
-Color=165,111,0
+Color=148,99,0
 
 [Color4Intense]
-Color=0,145,233
+Color=0,132,212
 
 [Color5Intense]
-Color=197,107,255
+Color=166,100,226
 
 [Color6Intense]
-Color=0,166,146
+Color=0,152,133
 
 [Color7Intense]
 Color=81,81,81

@@ -21,15 +21,15 @@ set -g status-right-length "100"
 set -g status-left-style NONE
 set -g status-right-style NONE
 
-set -g status-left "#[fg=#cccccc,bg=#0084d4,bold] #S #[fg=#0084d4,bg=#eeeeee,nobold,nounderscore,noitalics]"
-set -g status-right "#[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#eeeeee] #{prefix_highlight} #[fg=#c9c9c9,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#c9c9c9] %Y-%m-%d  %I:%M %p #[fg=#0084d4,bg=#c9c9c9,nobold,nounderscore,noitalics]#[fg=#cccccc,bg=#0084d4,bold] #h "
+set -g status-left "#[fg=#ffffff,bg=#0084d4,bold] #S #[fg=#0084d4,bg=#eeeeee,nobold,nounderscore,noitalics]"
+set -g status-right "#[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#eeeeee] #{prefix_highlight} #[fg=#c9c9c9,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#c9c9c9] %Y-%m-%d  %I:%M %p #[fg=#0084d4,bg=#c9c9c9,nobold,nounderscore,noitalics]#[fg=#ffffff,bg=#0084d4,bold] #h "
 if-shell '[ "$(tmux show-option -gqv "clock-mode-style")" == "24" ]' {
-  set -g status-right "#[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#eeeeee] #{prefix_highlight} #[fg=#c9c9c9,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#c9c9c9] %Y-%m-%d  %H:%M #[fg=#0084d4,bg=#c9c9c9,nobold,nounderscore,noitalics]#[fg=#cccccc,bg=#0084d4,bold] #h "
+  set -g status-right "#[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#eeeeee] #{prefix_highlight} #[fg=#c9c9c9,bg=#eeeeee,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#c9c9c9] %Y-%m-%d  %H:%M #[fg=#0084d4,bg=#c9c9c9,nobold,nounderscore,noitalics]#[fg=#ffffff,bg=#0084d4,bold] #h "
 }
 
-setw -g window-status-activity-style "underscore,fg=#808080,bg=#eeeeee"
+setw -g window-status-activity-style "underscore,fg=#818181,bg=#eeeeee"
 setw -g window-status-separator ""
-setw -g window-status-style "NONE,fg=#808080,bg=#eeeeee"
+setw -g window-status-style "NONE,fg=#818181,bg=#eeeeee"
 setw -g window-status-format "#[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]#[default] #I  #W #F #[fg=#eeeeee,bg=#eeeeee,nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=#eeeeee,bg=#c9c9c9,nobold,nounderscore,noitalics]#[fg=#0084d4,bg=#c9c9c9,bold] #I  #W #F #[fg=#c9c9c9,bg=#eeeeee,nobold,nounderscore,noitalics]"
 

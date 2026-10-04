@@ -7,11 +7,11 @@ cursor_fg = "#ffffff"
 selection_bg = "#9cb4f0"
 selection_fg = "#515151"
 split = "#0084d4"
-compose_cursor = "#ab6500"
+compose_cursor = "#b26500"
 scrollbar_thumb = "#e4e4e4"
 
-ansi = ["#cccccc", "#d22a38", "#009f35", "#946300", "#0084d4", "#bd55fa", "#009885", "#808080"]
-brights = ["#676767", "#f6002b", "#00ae3b", "#a56f00", "#0091e9", "#c56bff", "#00a692", "#515151"]
+ansi = ["#ffffff", "#d22a38", "#009f35", "#946300", "#0084d4", "#a664e2", "#009885", "#818181"]
+brights = ["#676767", "#d22a38", "#009f35", "#946300", "#0084d4", "#a664e2", "#009885", "#515151"]
 
 [colors.tab_bar]
 inactive_tab_edge = "#eeeeee"

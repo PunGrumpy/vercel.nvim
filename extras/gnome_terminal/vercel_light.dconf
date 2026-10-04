@@ -13,6 +13,6 @@ foreground-color='rgb(81, 81, 81)'
 highlight-background-color='rgb(81, 81, 81)'
 highlight-colors-set=true
 highlight-foreground-color='rgb(255, 255, 255)'
-palette=['rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(189, 85, 250)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)', 'rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(189, 85, 250)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)']
+palette=['rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(166, 100, 226)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)', 'rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(166, 100, 226)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)']
 use-theme-colors=false
 visible-name='Vercel Light'

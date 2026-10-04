@@ -2,20 +2,20 @@
 # NOTE: can be combined with tmTheme (sublime colorshceme file) for preview code highlight
 # syntect_theme = "path/to/tmTheme"
 
-cwd = { fg = "#808080", italic = true }
+cwd = { fg = "#818181", italic = true }
 
 # Hovered
 hovered         = { bg = "#e4e4e4" }
 preview_hovered = { bg = "#e4e4e4" }
 
 # Find
-find_keyword  = { fg = "#eeeeee", bg = "#ab6500", bold = true }
+find_keyword  = { fg = "#eeeeee", bg = "#b26500", bold = true }
 find_position = { fg = "#0084d4", bg = "#e6f3fb", bold = true }
 
 # Marker
 marker_copied   = { fg = "#009f35", bg = "#009f35" }
 marker_cut      = { fg = "#d22a38", bg = "#d22a38" }
-marker_marked   = { fg = "#bd55fa", bg = "#bd55fa" }
+marker_marked   = { fg = "#a664e2", bg = "#a664e2" }
 marker_selected = { fg = "#0084d4", bg = "#0084d4" }
 
 # Count
@@ -29,17 +29,17 @@ border_style  = { fg = "#3384fe" }
 
 # Tab
 [tabs]
-active   = { fg = "#cccccc", bg = "#0084d4" }
+active   = { fg = "#ffffff", bg = "#0084d4" }
 inactive = { fg = "#0084d4", bg = "#c9c9c9" }
 
 [mode]
-normal_main = { fg = "#cccccc", bg = "#0084d4", bold = true }
+normal_main = { fg = "#ffffff", bg = "#0084d4", bold = true }
 normal_alt  = { fg = "#0084d4", bg = "#c9c9c9" }
 
-select_main = { fg = "#cccccc", bg = "#bd55fa", bold = true }
-select_alt  = { fg = "#bd55fa", bg = "#c9c9c9" }
+select_main = { fg = "#ffffff", bg = "#a664e2", bold = true }
+select_alt  = { fg = "#a664e2", bg = "#c9c9c9" }
 
-unset_main  = { fg = "#cccccc", bg = "#bd55fa", bold = true }
+unset_main  = { fg = "#ffffff", bg = "#bd55fa", bold = true }
 unset_alt   = { fg = "#bd55fa", bg = "#c9c9c9" }
 
 [status]
@@ -93,9 +93,9 @@ cols            = 3
 mask            = { bg = "#eeeeee" }
 cand            = { fg = "#009885" }
 rest            = { fg = "#0084d4" }
-desc            = { fg = "#bd55fa" }
+desc            = { fg = "#a664e2" }
 separator       = " ➜ "
-separator_style = { fg = "#808080" }
+separator_style = { fg = "#818181" }
 
 # Confirm
 [confirm]
@@ -125,7 +125,7 @@ icon_info = ""
 # Help
 [help]
 on      = { fg = "#009f35" }
-run     = { fg = "#bd55fa" }
+run     = { fg = "#a664e2" }
 desc    = { fg = "#009885" }
 hovered = { bg = "#e4e4e4" }
 footer  = { fg = "#515151", bg = "#ffffff" }
@@ -137,7 +137,7 @@ rules = [
 	{ mime = "image/*", fg = "#946300" },
 
 	# Media
-	{ mime = "{audio,video}/*", fg = "#bd55fa" },
+	{ mime = "{audio,video}/*", fg = "#a664e2" },
 
 	# Archives
 	{ mime = "application/*zip", fg = "#d22a38" },

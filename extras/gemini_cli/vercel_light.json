@@ -3,7 +3,7 @@
   "type": "custom",
   "text": {
     "primary": "#515151",
-    "secondary": "#808080",
+    "secondary": "#818181",
     "response": "#515151"
   },
   "background": {
@@ -18,23 +18,23 @@
     "focused": "#0084d4"
   },
   "ui": {
-    "comment": "#808080",
-    "symbol": "#808080",
-    "gradient": ["#0084d4", "#bd55fa", "#009885"]
+    "comment": "#818181",
+    "symbol": "#818181",
+    "gradient": ["#0084d4", "#a664e2", "#009885"]
   },
   "Background": "#ffffff",
   "Foreground": "#515151",
   "LightBlue": "#0065fe",
-  "AccentBlue": "#bd55fa",
+  "AccentBlue": "#a664e2",
   "AccentPurple": "#bd55fa",
   "AccentCyan": "#009885",
-  "AccentGreen": "#ab6500",
+  "AccentGreen": "#b26500",
   "AccentYellow": "#009f35",
   "AccentRed": "#d22a38",
   "DiffAdded": "#bfe7cd",
   "DiffRemoved": "#f4cacd",
-  "Comment": "#808080",
-  "Gray": "#808080",
+  "Comment": "#818181",
+  "Gray": "#818181",
   "DarkGray": "#eeeeee",
-  "GradientColors": ["#0084d4", "#bd55fa", "#009885"]
+  "GradientColors": ["#0084d4", "#a664e2", "#009885"]
 }

@@ -25,7 +25,7 @@ module.exports =  {
     {
       types: ["punctuation"],
       style: {
-        color: "#c472fb",
+        color: "#9440d5",
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#ff990a",
+        color: "#ff9300",
       },
     },
     {
@@ -61,7 +61,7 @@ module.exports =  {
     {
       types: ["comment"],
       style: {
-        color: "#a1a1a1",
+        color: "#a0a0a0",
         fontStyle: "italic",
       },
     },

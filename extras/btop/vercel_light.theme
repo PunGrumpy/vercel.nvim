@@ -8,7 +8,7 @@ theme[main_fg]="#515151"
 theme[title]="#515151"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#ab6500"
+theme[hi_fg]="#b26500"
 
 # Selected item in processes box
 theme[selected_bg]="#e4e4e4"

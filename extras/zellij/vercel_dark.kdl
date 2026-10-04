@@ -13,10 +13,10 @@ themes {
         green "#00ac3a"
         yellow "#ffae00"
         blue "#47a8ff"
-        magenta "#c472fb"
+        magenta "#9440d5"
         cyan "#00aa95"
-        white "#a1a1a1"
-        orange "#ff990a"
+        white "#a0a0a0"
+        orange "#ff9300"
     }
 }
 

@@ -2,20 +2,20 @@
 # NOTE: can be combined with tmTheme (sublime colorshceme file) for preview code highlight
 # syntect_theme = "path/to/tmTheme"
 
-cwd = { fg = "#a1a1a1", italic = true }
+cwd = { fg = "#a0a0a0", italic = true }
 
 # Hovered
 hovered         = { bg = "#1a1a1a" }
 preview_hovered = { bg = "#1a1a1a" }
 
 # Find
-find_keyword  = { fg = "#0a0a0a", bg = "#ff990a", bold = true }
+find_keyword  = { fg = "#0a0a0a", bg = "#ff9300", bold = true }
 find_position = { fg = "#47a8ff", bg = "#07111a", bold = true }
 
 # Marker
 marker_copied   = { fg = "#00ac3a", bg = "#00ac3a" }
 marker_cut      = { fg = "#f13242", bg = "#f13242" }
-marker_marked   = { fg = "#c472fb", bg = "#c472fb" }
+marker_marked   = { fg = "#9440d5", bg = "#9440d5" }
 marker_selected = { fg = "#47a8ff", bg = "#47a8ff" }
 
 # Count
@@ -36,8 +36,8 @@ inactive = { fg = "#47a8ff", bg = "#2e2e2e" }
 normal_main = { fg = "#000000", bg = "#47a8ff", bold = true }
 normal_alt  = { fg = "#47a8ff", bg = "#2e2e2e" }
 
-select_main = { fg = "#000000", bg = "#c472fb", bold = true }
-select_alt  = { fg = "#c472fb", bg = "#2e2e2e" }
+select_main = { fg = "#000000", bg = "#9440d5", bold = true }
+select_alt  = { fg = "#9440d5", bg = "#2e2e2e" }
 
 unset_main  = { fg = "#000000", bg = "#c472fb", bold = true }
 unset_alt   = { fg = "#c472fb", bg = "#2e2e2e" }
@@ -93,9 +93,9 @@ cols            = 3
 mask            = { bg = "#0a0a0a" }
 cand            = { fg = "#00aa95" }
 rest            = { fg = "#47a8ff" }
-desc            = { fg = "#c472fb" }
+desc            = { fg = "#9440d5" }
 separator       = " ➜ "
-separator_style = { fg = "#a1a1a1" }
+separator_style = { fg = "#a0a0a0" }
 
 # Confirm
 [confirm]
@@ -125,7 +125,7 @@ icon_info = ""
 # Help
 [help]
 on      = { fg = "#00ac3a" }
-run     = { fg = "#c472fb" }
+run     = { fg = "#9440d5" }
 desc    = { fg = "#00aa95" }
 hovered = { bg = "#1a1a1a" }
 footer  = { fg = "#ededed", bg = "#000000" }
@@ -137,7 +137,7 @@ rules = [
 	{ mime = "image/*", fg = "#ffae00" },
 
 	# Media
-	{ mime = "{audio,video}/*", fg = "#c472fb" },
+	{ mime = "{audio,video}/*", fg = "#9440d5" },
 
 	# Archives
 	{ mime = "application/*zip", fg = "#f13242" },

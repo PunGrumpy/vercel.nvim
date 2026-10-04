@@ -9,10 +9,10 @@
     "success": "#70d9a8",
     "error": "#f13242",
     "warning": "#ffae00",
-    "muted": "#a1a1a1",
+    "muted": "#a0a0a0",
     "dim": "#878787",
     "text": "",
-    "thinkingText": "#a1a1a1",
+    "thinkingText": "#a0a0a0",
 
     "selectedBg": "#1f3e70",
     "userMessageBg": "#0a0a0a",
@@ -24,29 +24,29 @@
     "toolSuccessBg": "#1a1a1a",
     "toolErrorBg": "#0c0303",
     "toolTitle": "",
-    "toolOutput": "#a1a1a1",
+    "toolOutput": "#a0a0a0",
 
     "mdHeading": "#47a8ff",
     "mdLink": "#00aa95",
-    "mdLinkUrl": "#a1a1a1",
+    "mdLinkUrl": "#a0a0a0",
     "mdCode": "#47a8ff",
     "mdCodeBlock": "#0a0a0a",
-    "mdCodeBlockBorder": "#a1a1a1",
-    "mdQuote": "#a1a1a1",
-    "mdQuoteBorder": "#a1a1a1",
-    "mdHr": "#ff990a",
-    "mdListBullet": "#ff990a",
+    "mdCodeBlockBorder": "#a0a0a0",
+    "mdQuote": "#a0a0a0",
+    "mdQuoteBorder": "#a0a0a0",
+    "mdHr": "#ff9300",
+    "mdListBullet": "#ff9300",
 
     "toolDiffAdded": "#002b0f",
     "toolDiffRemoved": "#3c0d11",
     "toolDiffContext": "#0f2a4a",
 
-    "syntaxComment": "#a1a1a1",
+    "syntaxComment": "#a0a0a0",
     "syntaxKeyword": "#c472fb",
     "syntaxFunction": "#47a8ff",
     "syntaxVariable": "#ededed",
     "syntaxString": "#00ac3a",
-    "syntaxNumber": "#ff990a",
+    "syntaxNumber": "#ff9300",
     "syntaxType": "#a6b5ff",
     "syntaxOperator": "#a6b5ff",
     "syntaxPunctuation": "#a6b5ff",
@@ -55,9 +55,9 @@
     "thinkingMinimal": "#878787",
     "thinkingLow": "#0f2a4a",
     "thinkingMedium": "#47a8ff",
-    "thinkingHigh": "#c472fb",
+    "thinkingHigh": "#9440d5",
     "thinkingXhigh": "#c472fb",
 
-    "bashMode": "#ff990a"
+    "bashMode": "#ff9300"
   }
 }

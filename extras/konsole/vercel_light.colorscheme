@@ -12,7 +12,7 @@ Bold=true
 Color=81,81,81
 
 [Color0]
-Color=#cccccc
+Color=#ffffff
 
 [Color0Intense]
 Color=#676767
@@ -21,40 +21,40 @@ Color=#676767
 Color=#d22a38
 
 [Color1Intense]
-Color=#f6002b
+Color=#d22a38
 
 [Color2]
 Color=#009f35
 
 [Color2Intense]
-Color=#00ae3b
+Color=#009f35
 
 [Color3]
 Color=#946300
 
 [Color3Intense]
-Color=#a56f00
+Color=#946300
 
 [Color4]
 Color=#0084d4
 
 [Color4Intense]
-Color=#0091e9
+Color=#0084d4
 
 [Color5]
-Color=#bd55fa
+Color=#a664e2
 
 [Color5Intense]
-Color=#c56bff
+Color=#a664e2
 
 [Color6]
 Color=#009885
 
 [Color6Intense]
-Color=#00a692
+Color=#009885
 
 [Color7]
-Color=#808080
+Color=#818181
 
 [Color7Intense]
 Color=#515151

@@ -1,5 +1,5 @@
 attribute = { fg = "#bd55fa" }
-comment = { fg = "#808080", modifiers = ["italic"] }
+comment = { fg = "#818181", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#009f35" }
 constant = { fg = "#0084d4" }
 "constant.builtin" = { fg = "#474747" }
@@ -46,8 +46,8 @@ label = { fg = "#cc236d" }
 "markup.link.text" = { fg = "#009f35", underline = { style = "line" } }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#0084d4" }
-"markup.normal.completion" = { fg = "#808080" }
-"markup.normal.hover" = { fg = "#808080" }
+"markup.normal.completion" = { fg = "#818181" }
+"markup.normal.hover" = { fg = "#818181" }
 "markup.raw" = { fg = "#009f35" }
 "markup.raw.inline" = { fg = "#009f35" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
@@ -65,7 +65,7 @@ type = { fg = "#bd55fa" }
 "ui.background" = { bg = "bg" }
 "ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#515151", fg = "#ffffff" }
-"ui.cursor.match" = { fg = "#ab6500", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "#b26500", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#676767" }
 "ui.linenr.select" = { fg = "#515151", modifiers = ["bold"] }
 "ui.menu" = { bg = "#eeeeee", fg = "#515151" }
@@ -73,15 +73,15 @@ type = { fg = "#bd55fa" }
 "ui.menu.selected" = { bg = "#d4d4d4" }
 "ui.popup" = { bg = "#eeeeee", fg = "#3384fe" }
 "ui.selection" = { bg = "bg_highlight" }
-"ui.statusline" = { bg = "#eeeeee", fg = "#808080" }
+"ui.statusline" = { bg = "#eeeeee", fg = "#818181" }
 "ui.statusline.inactive" = { bg = "#eeeeee", fg = "#c9c9c9" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
 "ui.text" = { bg = "#ffffff", fg = "#515151" }
 "ui.text.focus" = { bg = "#9cb4f0" }
-"ui.text.inactive" = { fg = "#808080", modifiers = ["italic"] }
+"ui.text.inactive" = { fg = "#818181", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#eeeeee", fg = "#515151" }
 "ui.virtual.inlay-hint" = { bg = "#e6f5f3", fg = "#009885" }
-"ui.window" = { fg = "#cccccc", modifiers = ["bold"] }
+"ui.window" = { fg = "#ffffff", modifiers = ["bold"] }
 variable = { fg = "#515151" }
 "variable.builtin" = { fg = "#0065fe" }
 "variable.other.member" = { fg = "#515151" }
@@ -99,7 +99,7 @@ bg_search = "#9cb4f0"
 bg_sidebar = "#eeeeee"
 bg_statusline = "#eeeeee"
 bg_visual = "#9cb4f0"
-black = "#cccccc"
+black = "#ffffff"
 blue = "#0084d4"
 blue0 = "#9cb4f0"
 blue1 = "#0065fe"
@@ -107,9 +107,9 @@ blue2 = "#0084d4"
 blue5 = "#0065fe"
 blue6 = "#0065fe"
 blue7 = "#bdd0f8"
-border = "#cccccc"
+border = "#ffffff"
 border_highlight = "#3384fe"
-comment = "#808080"
+comment = "#818181"
 cyan = "#009885"
 dark3 = "#adadad"
 dark5 = "#676767"
@@ -119,10 +119,10 @@ dark5 = "#676767"
 "diff.text" = "#bdd0f8"
 error = "#d22a38"
 fg = "#515151"
-fg_dark = "#808080"
+fg_dark = "#818181"
 fg_float = "#515151"
 fg_gutter = "#c9c9c9"
-fg_sidebar = "#808080"
+fg_sidebar = "#818181"
 "git.add" = "#397458"
 "git.change" = "#0084d4"
 "git.delete" = "#e62f00"
@@ -132,38 +132,38 @@ green1 = "#397458"
 green2 = "#009f35"
 hint = "#009885"
 info = "#0084d4"
-magenta = "#bd55fa"
+magenta = "#a664e2"
 magenta2 = "#cc236d"
-orange = "#ab6500"
+orange = "#b26500"
 pink = "#cc236d"
 purple = "#bd55fa"
 rainbow = "#0084d4"
 "rainbow.2" = "#946300"
 "rainbow.3" = "#009f35"
 "rainbow.4" = "#009885"
-"rainbow.5" = "#bd55fa"
+"rainbow.5" = "#a664e2"
 "rainbow.6" = "#bd55fa"
-"rainbow.7" = "#ab6500"
+"rainbow.7" = "#b26500"
 "rainbow.8" = "#d22a38"
 red = "#d22a38"
 red1 = "#d22a38"
 teal = "#009885"
-"terminal.black" = "#cccccc"
+"terminal.black" = "#ffffff"
 "terminal.black_bright" = "#676767"
 "terminal.blue" = "#0084d4"
-"terminal.blue_bright" = "#0091e9"
+"terminal.blue_bright" = "#0084d4"
 "terminal.cyan" = "#009885"
-"terminal.cyan_bright" = "#00a692"
+"terminal.cyan_bright" = "#009885"
 "terminal.green" = "#009f35"
-"terminal.green_bright" = "#00ae3b"
-"terminal.magenta" = "#bd55fa"
-"terminal.magenta_bright" = "#c56bff"
+"terminal.green_bright" = "#009f35"
+"terminal.magenta" = "#a664e2"
+"terminal.magenta_bright" = "#a664e2"
 "terminal.red" = "#d22a38"
-"terminal.red_bright" = "#f6002b"
-"terminal.white" = "#808080"
+"terminal.red_bright" = "#d22a38"
+"terminal.white" = "#818181"
 "terminal.white_bright" = "#515151"
 "terminal.yellow" = "#946300"
-"terminal.yellow_bright" = "#a56f00"
+"terminal.yellow_bright" = "#946300"
 terminal_black = "#676767"
 todo = "#0084d4"
 warning = "#946300"

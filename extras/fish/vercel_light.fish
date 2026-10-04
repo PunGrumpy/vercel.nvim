@@ -1,14 +1,14 @@
 # Vercel Color Palette
 set -l foreground 515151
 set -l selection 9cb4f0
-set -l comment 808080
+set -l comment 818181
 set -l red d22a38
-set -l orange ab6500
+set -l orange b26500
 set -l yellow 946300
 set -l green 009f35
 set -l purple bd55fa
 set -l cyan 009885
-set -l pink bd55fa
+set -l pink a664e2
 
 # Syntax Highlighting Colors
 set -g fish_color_normal $foreground

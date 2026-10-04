@@ -3,7 +3,7 @@ style:
   body:
     fgColor: '#515151'
     bgColor: '#eeeeee'
-    secondaryTextColor: '#808080'
+    secondaryTextColor: '#818181'
     tertiaryTextColor: '${fg_visual}'
     borderColor: '#c9c9c9'
   stat_table:
@@ -24,13 +24,13 @@ style:
     categoryFgColor: '#0065fe'
   dialog:
     fgColor: '#0065fe'
-    bgColor: '#cccccc'
+    bgColor: '#ffffff'
     contrastBgColor: '#ffffff'
     attentionBgColor: '#d22a38'
-    buttonFgColor: '#cccccc'
+    buttonFgColor: '#ffffff'
     buttonBgColor: '#e4e4e4'
-    buttonFocusFgColor: '#cccccc'
+    buttonFocusFgColor: '#ffffff'
     buttonFocusBgColor: '#0084d4'
     labelFgColor: '#946300'
-    fieldFgColor: '#cccccc'
+    fieldFgColor: '#ffffff'
     fieldBgColor: '#bdd0f8'
