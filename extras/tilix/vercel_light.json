@@ -1,0 +1,26 @@
+{
+    "name": "Vercel Light",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#515151",
+    "background-color": "#ffffff",
+    "palette": [
+        "#cccccc",
+        "#d22a38",
+        "#009f35",
+        "#946300",
+        "#0084d4",
+        "#bd55fa",
+        "#009885",
+        "#808080",
+        "#676767",
+        "#d22a38",
+        "#009f35",
+        "#946300",
+        "#0084d4",
+        "#bd55fa",
+        "#009885",
+        "#515151"
+    ]
+}
+  

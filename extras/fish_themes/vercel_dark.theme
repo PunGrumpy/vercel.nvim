@@ -1,0 +1,25 @@
+# Vercel
+
+# Syntax Highlighting Colors
+fish_color_normal ededed
+fish_color_command 00aa95
+fish_color_keyword c472fb
+fish_color_quote ffae00
+fish_color_redirection ededed
+fish_color_end ff990a
+fish_color_option c472fb
+fish_color_error f13242
+fish_color_param c472fb
+fish_color_comment a1a1a1
+fish_color_selection --background=1f3e70
+fish_color_search_match --background=1f3e70
+fish_color_operator 00ac3a
+fish_color_escape c472fb
+fish_color_autosuggestion a1a1a1
+
+# Completion Pager Colors
+fish_pager_color_progress a1a1a1
+fish_pager_color_prefix 00aa95
+fish_pager_color_completion ededed
+fish_pager_color_description a1a1a1
+fish_pager_color_selected_background --background=1f3e70

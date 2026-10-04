@@ -1,0 +1,22 @@
+// Vercel Zellij Colors
+// Add this file to your `CONFIG_DIR/themes` directory as described here:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+    vercel_light {
+        fg "#515151"
+        bg "#e4e4e4"
+        // Black should match the terminal background color
+        // This ensures the top and bottom bars are transparent
+        black "#ffffff"
+        red "#d22a38"
+        green "#009f35"
+        yellow "#946300"
+        blue "#0084d4"
+        magenta "#bd55fa"
+        cyan "#009885"
+        white "#808080"
+        orange "#ab6500"
+    }
+}
+

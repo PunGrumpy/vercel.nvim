@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# Vercel Alacritty Colors
+# Theme: Vercel
+# Upstream: https://github.com/PunGrumpy/vercel.nvim/raw/main/extras/alacritty/vercel_dark.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#000000'
+foreground = '#ededed'
+
+# Normal colors
+[colors.normal]
+black = '#000000'
+red = '#f13242'
+green = '#00ac3a'
+yellow = '#ffae00'
+blue = '#47a8ff'
+magenta = '#c472fb'
+cyan = '#00aa95'
+white = '#a1a1a1'
+
+# Bright colors
+[colors.bright]
+black = '#878787'
+red = '#ff4753'
+green = '#00bb40'
+yellow = '#ffc076'
+blue = '#71b4ff'
+magenta = '#cc86ff'
+cyan = '#00b9a2'
+white = '#ededed'

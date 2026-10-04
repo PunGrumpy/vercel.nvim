@@ -1,0 +1,40 @@
+{
+  "name": "Vercel Light",
+  "type": "custom",
+  "text": {
+    "primary": "#515151",
+    "secondary": "#808080",
+    "response": "#515151"
+  },
+  "background": {
+    "primary": "#ffffff",
+    "diff": {
+      "added": "#bfe7cd",
+      "removed": "#f4cacd"
+    }
+  },
+  "border": {
+    "default": "#e4e4e4",
+    "focused": "#0084d4"
+  },
+  "ui": {
+    "comment": "#808080",
+    "symbol": "#808080",
+    "gradient": ["#0084d4", "#bd55fa", "#009885"]
+  },
+  "Background": "#ffffff",
+  "Foreground": "#515151",
+  "LightBlue": "#0065fe",
+  "AccentBlue": "#bd55fa",
+  "AccentPurple": "#bd55fa",
+  "AccentCyan": "#009885",
+  "AccentGreen": "#ab6500",
+  "AccentYellow": "#009f35",
+  "AccentRed": "#d22a38",
+  "DiffAdded": "#bfe7cd",
+  "DiffRemoved": "#f4cacd",
+  "Comment": "#808080",
+  "Gray": "#808080",
+  "DarkGray": "#eeeeee",
+  "GradientColors": ["#0084d4", "#bd55fa", "#009885"]
+}

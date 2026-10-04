@@ -1,0 +1,28 @@
+{
+  "name": "Vercel",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#000000",
+    "colorPaletteOverrides": [
+      "#000000",
+      "#f13242",
+      "#00ac3a",
+      "#ffae00",
+      "#47a8ff",
+      "#c472fb",
+      "#00aa95",
+      "#a1a1a1",
+      "#878787",
+      "#ff4753",
+      "#00bb40",
+      "#ffc076",
+      "#71b4ff",
+      "#cc86ff",
+      "#00b9a2",
+      "#ededed",
+    ],
+    "cursorColor": "#ededed",
+    "foregroundColor": "#ededed"
+  }
+}
+

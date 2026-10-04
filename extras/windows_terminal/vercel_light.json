@@ -1,0 +1,25 @@
+# Add the following object to your Windows Terminal configuration
+# https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
+{
+    "background": "#ffffff",
+    "black": "#cccccc",
+    "blue": "#0084d4",
+    "brightBlack": "#676767",
+    "brightBlue": "#0084d4",
+    "brightCyan": "#009885",
+    "brightGreen": "#009f35",
+    "brightPurple": "#bd55fa",
+    "brightRed": "#d22a38",
+    "brightWhite": "#515151",
+    "brightYellow": "#946300",
+    "cursorColor": "#515151",
+    "cyan": "#009885",
+    "foreground": "#515151",
+    "green": "#009f35",
+    "name": "Vercel Light",
+    "purple": "#bd55fa",
+    "red": "#d22a38",
+    "selectionBackground": "#9cb4f0",
+    "white": "#808080",
+    "yellow": "#946300"
+}

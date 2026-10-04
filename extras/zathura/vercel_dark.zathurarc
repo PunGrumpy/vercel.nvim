@@ -1,0 +1,38 @@
+# Vercel color theme for Zathura
+# Swaps Foreground for Background to get a light version if the user prefers
+#
+# Vercel color theme
+#
+set notification-error-bg "#f13242"
+set notification-error-fg "#ededed"
+set notification-warning-bg "#ffae00"
+set notification-warning-fg "#878787"
+set notification-bg "#000000"
+set notification-fg "#ededed"
+set completion-bg "#000000"
+set completion-fg "#a1a1a1"
+set completion-group-bg "#000000"
+set completion-group-fg "#a1a1a1"
+set completion-highlight-bg "#878787"
+set completion-highlight-fg "#ededed"
+set index-bg "#000000"
+set index-fg "#ededed"
+set index-active-bg "#878787"
+set index-active-fg "#ededed"
+set inputbar-bg "#000000"
+set inputbar-fg "#ededed"
+set statusbar-bg "#000000"
+set statusbar-fg "#ededed"
+set highlight-color "#ffae00"
+set highlight-active-color "#00ac3a"
+set default-bg "#000000"
+set default-fg "#ededed"
+set render-loading true
+set render-loading-fg "#000000"
+set render-loading-bg "#ededed"
+#
+# Recolor mode settings
+# <C-r> to switch modes
+#
+set recolor-lightcolor "#000000"
+set recolor-darkcolor "#ededed"

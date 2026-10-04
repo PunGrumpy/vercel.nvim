@@ -1,0 +1,45 @@
+[colors]
+foreground = "#ededed"
+background = "#000000"
+cursor_bg = "#ededed"
+cursor_border = "#ededed"
+cursor_fg = "#000000"
+selection_bg = "#1f3e70"
+selection_fg = "#ededed"
+split = "#47a8ff"
+compose_cursor = "#ff990a"
+scrollbar_thumb = "#1a1a1a"
+
+ansi = ["#000000", "#f13242", "#00ac3a", "#ffae00", "#47a8ff", "#c472fb", "#00aa95", "#a1a1a1"]
+brights = ["#878787", "#ff4753", "#00bb40", "#ffc076", "#71b4ff", "#cc86ff", "#00b9a2", "#ededed"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#0a0a0a"
+background = "#000000"
+
+[colors.tab_bar.active_tab]
+fg_color = "#0a0a0a"
+bg_color = "#47a8ff"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#454545"
+bg_color = "#1a1a1a"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#47a8ff"
+bg_color = "#1a1a1a"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#47a8ff"
+bg_color = "#000000"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#47a8ff"
+bg_color = "#000000"
+
+[metadata]
+aliases = []
+author = "PunGrumpy"
+name = "vercel_dark"

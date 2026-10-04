@@ -1,0 +1,36 @@
+style:
+  name: vercel_light
+  body:
+    fgColor: '#515151'
+    bgColor: '#eeeeee'
+    secondaryTextColor: '#808080'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#c9c9c9'
+  stat_table:
+    keyFgColor: '#946300'
+    valueFgColor: '#515151'
+    logoColor: '#946300'
+  proc_table:
+    fgColor: '#0084d4'
+    fgWarning: '#946300'
+    fgPending: '#adadad'
+    fgCompleted: '#009f35'
+    fgError: '#d22a38'
+    headerFgColor: '#515151'
+  help:
+    fgColor: '#0065fe'
+    keyColor: '#515151'
+    hlColor: '#009f35'
+    categoryFgColor: '#0065fe'
+  dialog:
+    fgColor: '#0065fe'
+    bgColor: '#cccccc'
+    contrastBgColor: '#ffffff'
+    attentionBgColor: '#d22a38'
+    buttonFgColor: '#cccccc'
+    buttonBgColor: '#e4e4e4'
+    buttonFocusFgColor: '#cccccc'
+    buttonFocusBgColor: '#0084d4'
+    labelFgColor: '#946300'
+    fieldFgColor: '#cccccc'
+    fieldBgColor: '#bdd0f8'

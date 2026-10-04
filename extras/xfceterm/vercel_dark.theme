@@ -1,0 +1,9 @@
+[Scheme]
+Name="vercel_dark"
+ColorBackground=#000000
+ColorForeground=#ededed
+
+ColorSelectionBackground=#1f3e70
+ColorSelection=#ededed
+
+ColorPalette=#000000;#f13242;#00ac3a;#ffae00;#47a8ff;#c472fb;#00aa95;#a1a1a1;#878787;#f13242;#00ac3a;#ffae00;#47a8ff;#c472fb;#00aa95;#ededed

@@ -1,0 +1,26 @@
+{
+    "name": "Vercel",
+    "comment": "",
+    "use-theme-colors": false,
+    "foreground-color": "#ededed",
+    "background-color": "#000000",
+    "palette": [
+        "#000000",
+        "#f13242",
+        "#00ac3a",
+        "#ffae00",
+        "#47a8ff",
+        "#c472fb",
+        "#00aa95",
+        "#a1a1a1",
+        "#878787",
+        "#f13242",
+        "#00ac3a",
+        "#ffae00",
+        "#47a8ff",
+        "#c472fb",
+        "#00aa95",
+        "#ededed"
+    ]
+}
+  

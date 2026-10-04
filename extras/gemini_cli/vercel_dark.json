@@ -1,0 +1,40 @@
+{
+  "name": "Vercel",
+  "type": "custom",
+  "text": {
+    "primary": "#ededed",
+    "secondary": "#a1a1a1",
+    "response": "#ededed"
+  },
+  "background": {
+    "primary": "#000000",
+    "diff": {
+      "added": "#002b0f",
+      "removed": "#3c0d11"
+    }
+  },
+  "border": {
+    "default": "#1a1a1a",
+    "focused": "#47a8ff"
+  },
+  "ui": {
+    "comment": "#a1a1a1",
+    "symbol": "#a1a1a1",
+    "gradient": ["#47a8ff", "#c472fb", "#00aa95"]
+  },
+  "Background": "#000000",
+  "Foreground": "#ededed",
+  "LightBlue": "#a6b5ff",
+  "AccentBlue": "#c472fb",
+  "AccentPurple": "#c472fb",
+  "AccentCyan": "#00aa95",
+  "AccentGreen": "#ff990a",
+  "AccentYellow": "#00ac3a",
+  "AccentRed": "#f13242",
+  "DiffAdded": "#002b0f",
+  "DiffRemoved": "#3c0d11",
+  "Comment": "#a1a1a1",
+  "Gray": "#a1a1a1",
+  "DarkGray": "#0a0a0a",
+  "GradientColors": ["#47a8ff", "#c472fb", "#00aa95"]
+}

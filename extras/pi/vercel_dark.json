@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "Vercel",
+  "colors": {
+    "accent": "#47a8ff",
+    "border": "#8591cc",
+    "borderAccent": "#00aa95",
+    "borderMuted": "#000000",
+    "success": "#70d9a8",
+    "error": "#f13242",
+    "warning": "#ffae00",
+    "muted": "#a1a1a1",
+    "dim": "#878787",
+    "text": "",
+    "thinkingText": "#a1a1a1",
+
+    "selectedBg": "#1f3e70",
+    "userMessageBg": "#0a0a0a",
+    "userMessageText": "",
+    "customMessageBg": "#0a0a0a",
+    "customMessageText": "",
+    "customMessageLabel": "#c472fb",
+    "toolPendingBg": "#1a1a1a",
+    "toolSuccessBg": "#1a1a1a",
+    "toolErrorBg": "#0c0303",
+    "toolTitle": "",
+    "toolOutput": "#a1a1a1",
+
+    "mdHeading": "#47a8ff",
+    "mdLink": "#00aa95",
+    "mdLinkUrl": "#a1a1a1",
+    "mdCode": "#47a8ff",
+    "mdCodeBlock": "#0a0a0a",
+    "mdCodeBlockBorder": "#a1a1a1",
+    "mdQuote": "#a1a1a1",
+    "mdQuoteBorder": "#a1a1a1",
+    "mdHr": "#ff990a",
+    "mdListBullet": "#ff990a",
+
+    "toolDiffAdded": "#002b0f",
+    "toolDiffRemoved": "#3c0d11",
+    "toolDiffContext": "#0f2a4a",
+
+    "syntaxComment": "#a1a1a1",
+    "syntaxKeyword": "#c472fb",
+    "syntaxFunction": "#47a8ff",
+    "syntaxVariable": "#ededed",
+    "syntaxString": "#00ac3a",
+    "syntaxNumber": "#ff990a",
+    "syntaxType": "#a6b5ff",
+    "syntaxOperator": "#a6b5ff",
+    "syntaxPunctuation": "#a6b5ff",
+
+    "thinkingOff": "#454545",
+    "thinkingMinimal": "#878787",
+    "thinkingLow": "#0f2a4a",
+    "thinkingMedium": "#47a8ff",
+    "thinkingHigh": "#c472fb",
+    "thinkingXhigh": "#c472fb",
+
+    "bashMode": "#ff990a"
+  }
+}

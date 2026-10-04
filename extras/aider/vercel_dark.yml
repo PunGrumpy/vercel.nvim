@@ -1,0 +1,16 @@
+assistant-output-color: "#ededed"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/PunGrumpy/vercel.nvim/blob/extras/aider/README.md
+# code-theme: vercel-dark
+
+completion-menu-color: "#ededed"
+completion-menu-bg-color: "#0a0a0a"
+completion-menu-current-color: "#ededed"
+completion-menu-current-bg-color: "#1a1a1a"
+
+tool-error-color: "#f13242"
+tool-output-color: "#47a8ff"
+tool-warning-color: "#ffae00"
+
+user-input-color: "#00ac3a"

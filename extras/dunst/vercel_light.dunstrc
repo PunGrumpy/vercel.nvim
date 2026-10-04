@@ -1,0 +1,17 @@
+# Vercel colors for dunst
+# For more configuration options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#eeeeee"
+    foreground = "#515151"
+    frame_color = "#515151"
+
+[urgency_normal]
+    background = "#ffffff"
+    foreground = "#515151"
+    frame_color = "#515151"
+
+[urgency_critical]
+    background = "#e4e4e4"
+    foreground = "#d22a38"
+    frame_color = "#d22a38"

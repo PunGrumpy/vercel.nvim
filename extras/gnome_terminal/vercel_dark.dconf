@@ -1,0 +1,18 @@
+# Import this theme as follows:
+# 1. Create a new profile for GNOME Terminal
+# 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
+# 3. Replace <PROFILE_UUID> below with the copied UUID
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < vercel_dark.dconf`
+
+[:<PROFILE_UUID>]
+background-color='rgb(0, 0, 0)'
+cursor-background-color='rgb(237, 237, 237)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(0, 0, 0)'
+foreground-color='rgb(237, 237, 237)'
+highlight-background-color='rgb(237, 237, 237)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(0, 0, 0)'
+palette=['rgb(135, 135, 135)', 'rgb(241, 50, 66)', 'rgb(0, 172, 58)', 'rgb(255, 174, 0)', 'rgb(71, 168, 255)', 'rgb(196, 114, 251)', 'rgb(0, 170, 149)', 'rgb(237, 237, 237)', 'rgb(135, 135, 135)', 'rgb(241, 50, 66)', 'rgb(0, 172, 58)', 'rgb(255, 174, 0)', 'rgb(71, 168, 255)', 'rgb(196, 114, 251)', 'rgb(0, 170, 149)', 'rgb(237, 237, 237)']
+use-theme-colors=false
+visible-name='Vercel'
