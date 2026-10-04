@@ -9,14 +9,14 @@ themes {
         // Black should match the terminal background color
         // This ensures the top and bottom bars are transparent
         black "#000000"
-        red "#f13242"
-        green "#00ac3a"
+        red "#ff565f"
+        green "#00ca50"
         yellow "#ffae00"
         blue "#47a8ff"
-        magenta "#c472fb"
+        magenta "#9440d5"
         cyan "#00aa95"
-        white "#a1a1a1"
-        orange "#ff990a"
+        white "#a0a0a0"
+        orange "#ff9300"
     }
 }
 

@@ -2,8 +2,8 @@ style:
   name: vercel_dark
   body:
     fgColor: '#ededed'
-    bgColor: '#0a0a0a'
-    secondaryTextColor: '#a1a1a1'
+    bgColor: '#000000'
+    secondaryTextColor: '#a0a0a0'
     tertiaryTextColor: '${fg_visual}'
     borderColor: '#2e2e2e'
   stat_table:
@@ -14,16 +14,16 @@ style:
     fgColor: '#47a8ff'
     fgWarning: '#ffae00'
     fgPending: '#454545'
-    fgCompleted: '#00ac3a'
+    fgCompleted: '#00ca50'
     fgError: '#f13242'
     headerFgColor: '#ededed'
   help:
-    fgColor: '#a6b5ff'
+    fgColor: '#47a8ff'
     keyColor: '#ededed'
-    hlColor: '#00ac3a'
-    categoryFgColor: '#a6b5ff'
+    hlColor: '#00ca50'
+    categoryFgColor: '#47a8ff'
   dialog:
-    fgColor: '#a6b5ff'
+    fgColor: '#47a8ff'
     bgColor: '#000000'
     contrastBgColor: '#000000'
     attentionBgColor: '#f13242'
@@ -33,4 +33,4 @@ style:
     buttonFocusBgColor: '#47a8ff'
     labelFgColor: '#ffae00'
     fieldFgColor: '#000000'
-    fieldBgColor: '#0f2a4a'
+    fieldBgColor: '#022248'

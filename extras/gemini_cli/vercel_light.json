@@ -2,39 +2,39 @@
   "name": "Vercel Light",
   "type": "custom",
   "text": {
-    "primary": "#515151",
-    "secondary": "#808080",
-    "response": "#515151"
+    "primary": "#171717",
+    "secondary": "#4d4d4d",
+    "response": "#171717"
   },
   "background": {
     "primary": "#ffffff",
     "diff": {
-      "added": "#bfe7cd",
-      "removed": "#f4cacd"
+      "added": "#c9ead1",
+      "removed": "#febfcd"
     }
   },
   "border": {
-    "default": "#e4e4e4",
-    "focused": "#0084d4"
+    "default": "#f2f2f2",
+    "focused": "#005ff2"
   },
   "ui": {
-    "comment": "#808080",
-    "symbol": "#808080",
-    "gradient": ["#0084d4", "#bd55fa", "#009885"]
+    "comment": "#4d4d4d",
+    "symbol": "#4d4d4d",
+    "gradient": ["#005ff2", "#a000f8", "#00ac96"]
   },
   "Background": "#ffffff",
-  "Foreground": "#515151",
-  "LightBlue": "#0065fe",
-  "AccentBlue": "#bd55fa",
-  "AccentPurple": "#bd55fa",
-  "AccentCyan": "#009885",
-  "AccentGreen": "#ab6500",
-  "AccentYellow": "#009f35",
-  "AccentRed": "#d22a38",
-  "DiffAdded": "#bfe7cd",
-  "DiffRemoved": "#f4cacd",
-  "Comment": "#808080",
-  "Gray": "#808080",
-  "DarkGray": "#eeeeee",
-  "GradientColors": ["#0084d4", "#bd55fa", "#009885"]
+  "Foreground": "#171717",
+  "LightBlue": "#005ff2",
+  "AccentBlue": "#a000f8",
+  "AccentPurple": "#7d00cc",
+  "AccentCyan": "#00ac96",
+  "AccentGreen": "#aa4d00",
+  "AccentYellow": "#107d32",
+  "AccentRed": "#d8001b",
+  "DiffAdded": "#c9ead1",
+  "DiffRemoved": "#febfcd",
+  "Comment": "#4d4d4d",
+  "Gray": "#4d4d4d",
+  "DarkGray": "#fafafa",
+  "GradientColors": ["#005ff2", "#a000f8", "#00ac96"]
 }

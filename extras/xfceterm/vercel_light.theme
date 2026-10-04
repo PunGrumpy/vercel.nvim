@@ -1,9 +1,9 @@
 [Scheme]
 Name="vercel_light"
 ColorBackground=#ffffff
-ColorForeground=#515151
+ColorForeground=#171717
 
-ColorSelectionBackground=#9cb4f0
-ColorSelection=#515151
+ColorSelectionBackground=#cae7ff
+ColorSelection=#171717
 
-ColorPalette=#cccccc;#d22a38;#009f35;#946300;#0084d4;#bd55fa;#009885;#808080;#676767;#d22a38;#009f35;#946300;#0084d4;#bd55fa;#009885;#515151
+ColorPalette=#ffffff;#d8001b;#107d32;#ffae00;#005ff2;#a000f8;#00ac96;#4d4d4d;#a8a8a8;#d8001b;#107d32;#ffae00;#005ff2;#a000f8;#00ac96;#171717

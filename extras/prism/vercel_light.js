@@ -1,67 +1,67 @@
 module.exports =  {
   plain: {
-    color: "#515151",
+    color: "#171717",
     backgroundColor: "#ffffff",
   },
   styles: [
     {
       types: ["prolog", "builtin"],
       style: {
-        color: "#d22a38",
+        color: "#d8001b",
       },
     },
     {
       types: ["function"],
       style: {
-        color: "#0084d4",
+        color: "#005ff2",
       },
     },
     {
       types: ["symbol"],
       style: {
-        color: "#0065fe",
+        color: "#005ff2",
       },
     },
     {
       types: ["punctuation"],
       style: {
-        color: "#bd55fa",
+        color: "#a000f8",
       },
     },
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "#009f35",
+        color: "#107d32",
       },
     },
     {
       types: ["keyword"],
       style: {
-        color: "#bd55fa",
+        color: "#7d00cc",
       },
     },
     {
       types: ["operator"],
       style: {
-        color: "#0065fe",
+        color: "#005ff2",
       },
     },
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#ab6500",
+        color: "#aa4d00",
       },
     },
     {
       types: ["variable"],
       style: {
-        color: "#515151",
+        color: "#171717",
       },
     },
     {
       types: ["comment"],
       style: {
-        color: "#808080",
+        color: "#4d4d4d",
         fontStyle: "italic",
       },
     },

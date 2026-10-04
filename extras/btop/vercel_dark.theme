@@ -8,7 +8,7 @@ theme[main_fg]="#ededed"
 theme[title]="#ededed"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#ff990a"
+theme[hi_fg]="#ff9300"
 
 # Selected item in processes box
 theme[selected_bg]="#1a1a1a"
@@ -18,56 +18,56 @@ theme[selected_fg]="#00aa95"
 theme[proc_misc]="#00aa95"
 
 # Cpu box outline color
-theme[cpu_box]="#8591cc"
+theme[cpu_box]="#3986cc"
 
 # Memory/disks box outline color
-theme[mem_box]="#8591cc"
+theme[mem_box]="#3986cc"
 
 # Net up/down box outline color
-theme[net_box]="#8591cc"
+theme[net_box]="#3986cc"
 
 # Processes box outline color
-theme[proc_box]="#8591cc"
+theme[proc_box]="#3986cc"
 
 # Box divider line and small boxes line color
-theme[div_line]="#8591cc"
+theme[div_line]="#3986cc"
 
 # Temperature graph colors
-theme[temp_start]="#00ac3a"
+theme[temp_start]="#00ca50"
 theme[temp_mid]="#ffae00"
-theme[temp_end]="#f13242"
+theme[temp_end]="#ff565f"
 
 # CPU graph colors
-theme[cpu_start]="#00ac3a"
+theme[cpu_start]="#00ca50"
 theme[cpu_mid]="#ffae00"
-theme[cpu_end]="#f13242"
+theme[cpu_end]="#ff565f"
 
 # Mem/Disk free meter
-theme[free_start]="#00ac3a"
+theme[free_start]="#00ca50"
 theme[free_mid]="#ffae00"
-theme[free_end]="#f13242"
+theme[free_end]="#ff565f"
 
 # Mem/Disk cached meter
-theme[cached_start]="#00ac3a"
+theme[cached_start]="#00ca50"
 theme[cached_mid]="#ffae00"
-theme[cached_end]="#f13242"
+theme[cached_end]="#ff565f"
 
 # Mem/Disk available meter
-theme[available_start]="#00ac3a"
+theme[available_start]="#00ca50"
 theme[available_mid]="#ffae00"
-theme[available_end]="#f13242"
+theme[available_end]="#ff565f"
 
 # Mem/Disk used meter
-theme[used_start]="#00ac3a"
+theme[used_start]="#00ca50"
 theme[used_mid]="#ffae00"
-theme[used_end]="#f13242"
+theme[used_end]="#ff565f"
 
 # Download graph colors
-theme[download_start]="#00ac3a"
+theme[download_start]="#00ca50"
 theme[download_mid]="#ffae00"
-theme[download_end]="#f13242"
+theme[download_end]="#ff565f"
 
 # Upload graph colors
-theme[upload_start]="#00ac3a"
+theme[upload_start]="#00ca50"
 theme[upload_mid]="#ffae00"
-theme[upload_end]="#f13242"
+theme[upload_end]="#ff565f"

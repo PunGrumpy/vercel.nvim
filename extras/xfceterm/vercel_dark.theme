@@ -3,7 +3,7 @@ Name="vercel_dark"
 ColorBackground=#000000
 ColorForeground=#ededed
 
-ColorSelectionBackground=#1f3e70
+ColorSelectionBackground=#003674
 ColorSelection=#ededed
 
-ColorPalette=#000000;#f13242;#00ac3a;#ffae00;#47a8ff;#c472fb;#00aa95;#a1a1a1;#878787;#f13242;#00ac3a;#ffae00;#47a8ff;#c472fb;#00aa95;#ededed
+ColorPalette=#000000;#ff565f;#00ca50;#ffae00;#47a8ff;#9440d5;#00aa95;#a0a0a0;#878787;#ff565f;#00ca50;#ffae00;#47a8ff;#9440d5;#00aa95;#ededed

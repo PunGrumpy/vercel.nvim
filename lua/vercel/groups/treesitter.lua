@@ -18,7 +18,7 @@ function M.get(c, opts)
     ["@comment.todo"]               = { fg = c.todo },
     ["@comment.warning"]            = { fg = c.warning },
     ["@constant"]                   = "Constant",
-    ["@constant.builtin"]           = { fg = c.white },
+    ["@constant.builtin"]           = "@constant",
     ["@constant.macro"]             = "Define",
     ["@constructor"]                = { fg = c.blue }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@constructor.tsx"]            = { fg = c.blue },
@@ -95,8 +95,8 @@ function M.get(c, opts)
     ["@variable"]                   = { fg = c.fg, style = opts.styles.variables }, -- Any variable name that does not have another highlight.
     ["@variable.builtin"]           = { fg = c.blue1 }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@variable.member"]            = { fg = c.fg }, -- For fields.
-    ["@variable.parameter"]         = { fg = c.fg }, -- For parameters of a function.
-    ["@variable.parameter.builtin"] = { fg = c.fg }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
+    ["@variable.parameter"]         = { fg = c.orange }, -- For parameters of a function.
+    ["@variable.parameter.builtin"] = { fg = c.orange }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
   }
 
   for i in ipairs(c.rainbow) do

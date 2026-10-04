@@ -3,16 +3,16 @@
 #
 # Vercel color theme
 #
-set notification-error-bg "#f13242"
+set notification-error-bg "#ff565f"
 set notification-error-fg "#ededed"
 set notification-warning-bg "#ffae00"
 set notification-warning-fg "#878787"
 set notification-bg "#000000"
 set notification-fg "#ededed"
 set completion-bg "#000000"
-set completion-fg "#a1a1a1"
+set completion-fg "#a0a0a0"
 set completion-group-bg "#000000"
-set completion-group-fg "#a1a1a1"
+set completion-group-fg "#a0a0a0"
 set completion-highlight-bg "#878787"
 set completion-highlight-fg "#ededed"
 set index-bg "#000000"
@@ -24,7 +24,7 @@ set inputbar-fg "#ededed"
 set statusbar-bg "#000000"
 set statusbar-fg "#ededed"
 set highlight-color "#ffae00"
-set highlight-active-color "#00ac3a"
+set highlight-active-color "#00ca50"
 set default-bg "#000000"
 set default-fg "#ededed"
 set render-loading true

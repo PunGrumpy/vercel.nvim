@@ -29,34 +29,34 @@ Color=255,174,0
 Color=71,168,255
 
 [Color5]
-Color=196,114,251
+Color=148,64,213
 
 [Color6]
 Color=0,170,149
 
 [Color7]
-Color=161,161,161
+Color=160,160,160
 
 [Color0Intense]
 Color=135,135,135
 
 [Color1Intense]
-Color=255,71,83
+Color=241,50,66
 
 [Color2Intense]
-Color=0,187,64
+Color=0,172,58
 
 [Color3Intense]
-Color=255,192,118
+Color=255,174,0
 
 [Color4Intense]
-Color=113,180,255
+Color=71,168,255
 
 [Color5Intense]
-Color=204,134,255
+Color=148,64,213
 
 [Color6Intense]
-Color=0,185,162
+Color=0,170,149
 
 [Color7Intense]
 Color=237,237,237
