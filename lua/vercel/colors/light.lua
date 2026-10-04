@@ -1,12 +1,45 @@
----@param opts vercel.Config
-return function(opts)
-  local Util = require("vercel.util")
-
-  ---@type Palette
-  local colors = vim.deepcopy(Util.mod("vercel.colors.dark"))
-
-  Util.invert(colors)
-  colors.bg_dark = Util.blend(colors.bg, 0.9, colors.fg)
-  colors.bg_dark1 = Util.blend(colors.bg_dark, 0.9, colors.fg)
-  return colors
-end
+---@class Palette
+local ret = {
+  bg = "#ffffff",
+  bg_dark = "#fafafa",
+  bg_dark1 = "#f2f2f2",
+  bg_highlight = "#f2f2f2",
+  black = "#ffffff",
+  blue = "#005ff2",
+  blue0 = "#cae7ff",
+  blue1 = "#005ff2",
+  blue2 = "#006bff",
+  blue5 = "#005ff2",
+  blue6 = "#005ff2",
+  blue7 = "#e9f4ff",
+  border = "#eaeaea",
+  comment = "#4d4d4d",
+  cyan = "#00ac96",
+  dark3 = "#c9c9c9",
+  dark5 = "#a8a8a8",
+  fg = "#171717",
+  fg_dark = "#4d4d4d",
+  fg_gutter = "#eaeaea",
+  green = "#107d32",
+  green1 = "#007f70",
+  green2 = "#28a948",
+  magenta = "#a000f8",
+  magenta2 = "#f22782",
+  orange = "#aa4d00",
+  pink = "#c41562",
+  purple = "#7d00cc",
+  red = "#d8001b",
+  red1 = "#fc0035",
+  teal = "#00ac96",
+  terminal_black = "#a8a8a8",
+  yellow = "#ffae00",
+  terminal = {
+    black = "#171717",
+  },
+  git = {
+    add = "#107d32",
+    change = "#005ff2",
+    delete = "#d8001b",
+  },
+}
+return ret

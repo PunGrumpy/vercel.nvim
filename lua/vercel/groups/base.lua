@@ -87,7 +87,7 @@ function M.get(c, opts)
     Identifier                  = { fg = c.fg, style = opts.styles.variables }, -- (preferred) any variable name
     Italic                      = { italic = true, fg = c.fg }, -- (preferred) any italic text
     Keyword                     = { fg = c.pink, style = opts.styles.keywords }, --  any other keyword
-    Number                      = { fg = c.white }, -- a number constant: 234, 0xff
+    Number                      = { fg = c.blue }, -- a number constant: 234, 0xff
     Operator                    = { fg = c.pink }, -- "sizeof", "+", "*", etc.
     PreProc                     = { fg = c.pink }, -- (preferred) generic Preprocessor
     Special                     = { fg = c.fg }, -- (preferred) any special symbol

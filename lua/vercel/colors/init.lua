@@ -13,8 +13,6 @@ M.styles = setmetatable({}, {
 function M.setup(opts)
   opts = require("vercel.config").extend(opts)
 
-  Util.light_brightness = opts.light_brightness
-
   local palette = M.styles[opts.style]
   if type(palette) == "function" then
     palette = palette(opts) --[[@as Palette]]
@@ -39,7 +37,7 @@ function M.setup(opts)
   colors.git.ignore = colors.dark3
   colors.black = colors.black or Util.blend_bg(colors.bg, 0.8, "#000000")
   colors.border_highlight = Util.blend_bg(colors.blue1, 0.8)
-  colors.border = colors.black
+  colors.border = colors.border or colors.black
 
   -- Popups and statusline always get a dark background
   colors.bg_popup = colors.bg_dark
@@ -78,13 +76,13 @@ function M.setup(opts)
 
   -- stylua: ignore
   --- @class TerminalColors
-  colors.terminal = {
+  colors.terminal = vim.tbl_extend("force", {
     black          = colors.black,
     black_bright   = colors.terminal_black,
-    red            = colors.red,
-    red_bright     = colors.red,
-    green          = colors.green,
-    green_bright   = colors.green,
+    red            = colors.red1,
+    red_bright     = colors.red1,
+    green          = colors.green2,
+    green_bright   = colors.green2,
     yellow         = colors.yellow,
     yellow_bright  = colors.yellow,
     blue           = colors.blue,
@@ -95,7 +93,7 @@ function M.setup(opts)
     cyan_bright    = colors.cyan,
     white          = colors.fg_dark,
     white_bright   = colors.fg,
-  }
+  }, colors.terminal or {})
 
   opts.on_colors(colors)
 
