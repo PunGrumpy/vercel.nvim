@@ -8,7 +8,7 @@ before_each(function()
   Init.styles = {}
 end)
 
-it("did prper init", function()
+it("did proper init", function()
   assert.same({}, Init.styles)
   assert.same("default", vim.g.colors_name)
   assert.same("dark", vim.o.background)
@@ -19,50 +19,50 @@ describe("loading respects vim.o.background", function()
     vim.o.background = "dark"
     vim.cmd.colorscheme("vercel")
     assert.same("dark", vim.o.background)
-    assert.same("vercel-moon", vim.g.colors_name)
+    assert.same("vercel-dark", vim.g.colors_name)
   end)
 
   it("= light", function()
     vim.o.background = "light"
     vim.cmd.colorscheme("vercel")
     assert.same("light", vim.o.background)
-    assert.same("vercel-day", vim.g.colors_name)
+    assert.same("vercel-light", vim.g.colors_name)
   end)
 
-  it("= dark with night", function()
+  it("= dark with dark", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("vercel-night")
+    vim.cmd.colorscheme("vercel-dark")
     assert.same("dark", vim.o.background)
-    assert.same("vercel-night", vim.g.colors_name)
+    assert.same("vercel-dark", vim.g.colors_name)
   end)
 
-  it("= dark with day", function()
+  it("= dark with light", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("vercel-day")
+    vim.cmd.colorscheme("vercel-light")
     assert.same("light", vim.o.background)
-    assert.same("vercel-day", vim.g.colors_name)
+    assert.same("vercel-light", vim.g.colors_name)
   end)
 
-  it("= light with night", function()
+  it("= light with dark", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("vercel-night")
+    vim.cmd.colorscheme("vercel-dark")
     assert.same("dark", vim.o.background)
-    assert.same("vercel-night", vim.g.colors_name)
+    assert.same("vercel-dark", vim.g.colors_name)
   end)
 
-  it("= light with day", function()
+  it("= light with light", function()
     vim.o.background = "light"
-    vim.cmd.colorscheme("vercel-day")
+    vim.cmd.colorscheme("vercel-light")
     assert.same("light", vim.o.background)
-    assert.same("vercel-day", vim.g.colors_name)
+    assert.same("vercel-light", vim.g.colors_name)
   end)
 
   it(" and switches to light", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("vercel-night")
+    vim.cmd.colorscheme("vercel-dark")
     vim.o.background = "light"
     assert.same("light", vim.o.background)
-    assert.same("vercel-day", vim.g.colors_name)
+    assert.same("vercel-light", vim.g.colors_name)
   end)
 
   it(" and switches to dark", function()
@@ -70,15 +70,15 @@ describe("loading respects vim.o.background", function()
     vim.cmd.colorscheme("vercel")
     vim.o.background = "dark"
     assert.same("dark", vim.o.background)
-    assert.same("vercel-moon", vim.g.colors_name)
+    assert.same("vercel-dark", vim.g.colors_name)
   end)
 
   it(" and remembers dark", function()
     vim.o.background = "dark"
-    vim.cmd.colorscheme("vercel-night")
+    vim.cmd.colorscheme("vercel-dark")
     vim.o.background = "light"
     vim.o.background = "dark"
     assert.same("dark", vim.o.background)
-    assert.same("vercel-night", vim.g.colors_name)
+    assert.same("vercel-dark", vim.g.colors_name)
   end)
 end)

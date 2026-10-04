@@ -1,3 +1,3 @@
 require("vercel").load({
-  style = vim.o.background == "light" and "day" or nil,
+  style = vim.o.background == "light" and "light" or nil,
 })

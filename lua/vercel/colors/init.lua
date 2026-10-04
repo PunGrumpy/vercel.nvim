@@ -13,7 +13,7 @@ M.styles = setmetatable({}, {
 function M.setup(opts)
   opts = require("vercel.config").extend(opts)
 
-  Util.day_brightness = opts.day_brightness
+  Util.light_brightness = opts.light_brightness
 
   local palette = M.styles[opts.style]
   if type(palette) == "function" then
@@ -54,7 +54,7 @@ function M.setup(opts)
     or opts.styles.floats == "dark" and colors.bg_dark
     or colors.bg
 
-  colors.bg_visual = Util.blend_bg(colors.blue0, 0.4)
+  colors.bg_visual = colors.blue0
   colors.bg_search = colors.blue0
   colors.fg_sidebar = colors.fg_dark
   colors.fg_float = colors.fg

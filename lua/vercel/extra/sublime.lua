@@ -13,7 +13,7 @@ end
 
 -- vim.schedule(function()
 --   local config = require("vercel.config")
---   config.setup({ style = "storm" })
+--   config.setup({ style = "dark" })
 --   local colors = require("vercel.colors").setup()
 --
 --   local lookup = {}

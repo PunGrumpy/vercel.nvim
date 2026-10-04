@@ -61,10 +61,8 @@ function M.setup()
 
   -- map of style to style name
   local styles = {
-    storm = " Storm",
-    night = "",
-    day = " Day",
-    moon = " Moon",
+    dark = "",
+    light = " Light",
   }
 
   ---@type string[]
@@ -85,7 +83,7 @@ function M.setup()
         .. "."
         .. info.ext
       fname = string.gsub(fname, "%.$", "") -- remove trailing dot when no extension
-      colors["_upstream_url"] = "https://github.com/folke/vercel.nvim/raw/main/extras/" .. fname
+      colors["_upstream_url"] = "https://github.com/PunGrumpy/vercel.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Vercel" .. style_name
       colors["_name"] = "vercel_" .. style
       colors["_style"] = style

@@ -8,11 +8,11 @@ M.styles = {}
 function M.load(opts)
   opts = require("vercel.config").extend(opts)
   local bg = vim.o.background
-  local style_bg = opts.style == "day" and "light" or "dark"
+  local style_bg = opts.style == "light" and "light" or "dark"
 
   if bg ~= style_bg then
     if vim.g.colors_name == "vercel-" .. opts.style then
-      opts.style = bg == "light" and (M.styles.light or "day") or (M.styles.dark or "moon")
+      opts.style = bg == "light" and (M.styles.light or "light") or (M.styles.dark or "dark")
     else
       vim.o.background = style_bg
     end

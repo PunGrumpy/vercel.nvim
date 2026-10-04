@@ -1,14 +1,9 @@
 ---@param opts vercel.Config
 return function(opts)
-  local style = opts.light_style or "night"
-  style = style == "day" and "night" or style
-
   local Util = require("vercel.util")
 
   ---@type Palette
-  local colors = vim.deepcopy(Util.mod("vercel.colors." .. style))
-
-  ---@type Palette
+  local colors = vim.deepcopy(Util.mod("vercel.colors.dark"))
 
   Util.invert(colors)
   colors.bg_dark = Util.blend(colors.bg, 0.9, colors.fg)
