@@ -16,7 +16,7 @@ function M.generate(colors)
     "brightBlue": "${blue}",
     "brightCyan": "${cyan}",
     "brightGreen": "${green}",
-    "brightPurple": "${purple}",
+    "brightPurple": "${magenta}",
     "brightRed": "${red}",
     "brightWhite": "${fg}",
     "brightYellow": "${yellow}",
@@ -27,7 +27,7 @@ function M.generate(colors)
     "name": "${_style_name}",
     "purple": "${magenta}",
     "red": "${red}",
-    "selectionBackground": "${bg_visual}",
+    "selectionBackground": "${white}",
     "white": "${fg_dark}",
     "yellow": "${yellow}"
 }

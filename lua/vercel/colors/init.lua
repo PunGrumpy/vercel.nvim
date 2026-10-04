@@ -37,7 +37,7 @@ function M.setup(opts)
   }
 
   colors.git.ignore = colors.dark3
-  colors.black = Util.blend_bg(colors.bg, 0.8, "#000000")
+  colors.black = colors.black or Util.blend_bg(colors.bg, 0.8, "#000000")
   colors.border_highlight = Util.blend_bg(colors.blue1, 0.8)
   colors.border = colors.black
 
@@ -82,17 +82,17 @@ function M.setup(opts)
     black          = colors.black,
     black_bright   = colors.terminal_black,
     red            = colors.red,
-    red_bright     = Util.brighten(colors.red),
+    red_bright     = colors.red,
     green          = colors.green,
-    green_bright   = Util.brighten(colors.green),
+    green_bright   = colors.green,
     yellow         = colors.yellow,
-    yellow_bright  = Util.brighten(colors.yellow),
+    yellow_bright  = colors.yellow,
     blue           = colors.blue,
-    blue_bright    = Util.brighten(colors.blue),
+    blue_bright    = colors.blue,
     magenta        = colors.magenta,
-    magenta_bright = Util.brighten(colors.magenta),
+    magenta_bright = colors.magenta,
     cyan           = colors.cyan,
-    cyan_bright    = Util.brighten(colors.cyan),
+    cyan_bright    = colors.cyan,
     white          = colors.fg_dark,
     white_bright   = colors.fg,
   }
