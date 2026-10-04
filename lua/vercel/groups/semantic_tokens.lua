@@ -1,5 +1,3 @@
-local Util = require("vercel.util")
-
 local M = {}
 
 ---@type vercel.HighlightsFn
@@ -16,7 +14,7 @@ function M.get(c)
     ["@lsp.type.escapeSequence"]               = "@string.escape",
     ["@lsp.type.formatSpecifier"]              = "@markup.list",
     ["@lsp.type.generic"]                      = "@variable",
-    ["@lsp.type.interface"]                    = { fg = Util.blend_fg(c.blue1, 0.7) },
+    ["@lsp.type.interface"]                    = "@type",
     ["@lsp.type.keyword"]                      = "@keyword",
     ["@lsp.type.lifetime"]                     = "@keyword.storage",
     ["@lsp.type.namespace"]                    = "@module",
@@ -28,6 +26,7 @@ function M.get(c)
     ["@lsp.type.selfKeyword"]                  = "@variable.builtin",
     ["@lsp.type.selfTypeKeyword"]              = "@variable.builtin",
     ["@lsp.type.string"]                       = "@string",
+    ["@lsp.type.typeParameter"]                = { fg = c.blue },
     ["@lsp.type.typeAlias"]                    = "@type.definition",
     ["@lsp.type.unresolvedReference"]          = { undercurl = true, sp = c.error },
     ["@lsp.type.variable"]                     = {}, -- use treesitter styles for regular variables
@@ -42,11 +41,12 @@ function M.get(c)
     ["@lsp.typemod.operator.injected"]         = "@operator",
     ["@lsp.typemod.string.injected"]           = "@string",
     ["@lsp.typemod.struct.defaultLibrary"]     = "@type.builtin",
-    ["@lsp.typemod.type.defaultLibrary"]       = { fg = Util.blend_bg(c.blue1, 0.8) },
-    ["@lsp.typemod.typeAlias.defaultLibrary"]  = { fg = Util.blend_bg(c.blue1, 0.8) },
+    ["@lsp.typemod.type.defaultLibrary"]       = "@type.builtin",
+    ["@lsp.typemod.typeAlias.defaultLibrary"]  = "@type.builtin",
     ["@lsp.typemod.variable.callable"]         = "@function",
     ["@lsp.typemod.variable.defaultLibrary"]   = "@variable.builtin",
     ["@lsp.typemod.variable.injected"]         = "@variable",
+    ["@lsp.typemod.variable.readonly"]         = "@constant",
     ["@lsp.typemod.variable.static"]           = "@constant",
 
   }
