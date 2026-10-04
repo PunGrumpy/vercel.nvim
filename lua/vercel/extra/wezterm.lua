@@ -49,7 +49,7 @@ bg_color = "${bg}"
 
 [metadata]
 aliases = []
-author = "folke"
+author = "PunGrumpy"
 name = "${_name}"]],
     colors
   )

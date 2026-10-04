@@ -55,7 +55,7 @@ function M.generate(colors)
    "simpleScrollbar": true,
    "transparencyTabBar": false,
    "transparencyTabs": false,
-   "url": "https://github.com/folke/vercel.nvim",
+   "url": "https://github.com/PunGrumpy/vercel.nvim",
    "version": 1
 }]],
     colors

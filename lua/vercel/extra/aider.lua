@@ -12,7 +12,7 @@ function M.generate(colors)
 assistant-output-color: "${fg}"
 
 # see the aider extra README for more information about setting the `code-theme`
-# https://github.com/folke/vercel.nvim/blob/extras/aider/README.md
+# https://github.com/PunGrumpy/vercel.nvim/blob/extras/aider/README.md
 # code-theme: ${_pygments_plugin_name}
 
 completion-menu-color: "${fg_float}"

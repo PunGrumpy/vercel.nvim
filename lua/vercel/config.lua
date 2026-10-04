@@ -48,7 +48,7 @@ M.defaults = {
     auto = true,
     -- add any plugins here that you want to enable
     -- for all possible plugins, see:
-    --   * https://github.com/folke/vercel.nvim/tree/main/lua/vercel/groups
+    --   * https://github.com/PunGrumpy/vercel.nvim/tree/main/lua/vercel/groups
     -- telescope = true,
   },
 }
