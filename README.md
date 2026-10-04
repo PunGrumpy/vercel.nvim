@@ -1,21 +1,140 @@
-# ▲ vercel.nvim
+<p align="center">
+  <h3 align="center">▲ vercel.nvim</h3>
+</p>
 
-A dark and light [Neovim](https://github.com/neovim/neovim) theme in the
-[Geist](https://vercel.com/geist/colors) colors used by Vercel. Built on
-[tokyonight.nvim](https://github.com/folke/tokyonight.nvim), so it supports the
-same plugins and ships [extras](#-extras) for terminals and CLI tools.
+<p align="center">
+  Vercel's Geist colors for Neovim.
+</p>
 
-## ✨ Features
+<p align="center">
+  <a href="#installation"><strong>Installation</strong></a> ·
+  <a href="#configuration"><strong>Configuration</strong></a> ·
+  <a href="#extras"><strong>Extras</strong></a> ·
+  <a href="https://vercel.com/geist/colors"><strong>Geist</strong></a>
+</p>
+<br/>
 
-- Two styles: `dark` and `light`
-- Treesitter and LSP semantic token colors that match Vercel's code blocks
-- Terminal colors
-- Support for all major plugins
-- [Extras](#-extras) for Ghostty, tmux, Windows Terminal, eza, fish, lazygit
-  and more, generated from the same palette
+## vercel.nvim
+
+A dark and light theme for [Neovim](https://github.com/neovim/neovim) in the colors of [Geist](https://vercel.com/geist/colors), Vercel's design system. It colors Treesitter, LSP semantic tokens, terminals, and [all major plugins](#supported-plugins), and ships [extras](#extras) for Ghostty, tmux, Windows Terminal, eza, and more.
+
+## Installation
+
+Requires Neovim 0.8.0 or later. Install with [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{
+  "PunGrumpy/vercel.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+}
+```
+
+Then load the theme:
+
+```lua
+vim.cmd([[colorscheme vercel]])
+```
+
+`vercel` follows `vim.o.background`. To pin a style, use `vercel-dark` or `vercel-light`.
+
+With [LazyVim](https://github.com/LazyVim/LazyVim), set the color scheme instead:
+
+```lua
+{ "LazyVim/LazyVim", opts = { colorscheme = "vercel" } }
+```
+
+For [lualine](https://github.com/nvim-lualine/lualine.nvim), [lightline](https://github.com/itchyny/lightline.vim), and [barbecue](https://github.com/utilyre/barbecue.nvim), set the theme to `vercel`.
+
+## Configuration
+
+Call `setup` before you load the theme. Without it, the theme uses the defaults below.
 
 <details>
-<summary>🎨 Supported Plugins</summary>
+<summary>Default options</summary>
+
+<!-- config:start -->
+
+```lua
+---@class vercel.Config
+---@field on_colors fun(colors: ColorScheme)
+---@field on_highlights fun(highlights: vercel.Highlights, colors: ColorScheme)
+M.defaults = {
+  style = "dark", -- The theme comes in two styles, `dark` and `light`
+  light_style = "light", -- The theme is used when the background is set to light
+  transparent = false, -- Enable this to disable setting the background color
+  terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
+  styles = {
+    -- Style to be applied to different syntax groups
+    -- Value is any valid attr-list value for `:help nvim_set_hl`
+    comments = { italic = true },
+    keywords = {},
+    functions = {},
+    variables = {},
+    -- Background styles. Can be "dark", "transparent" or "normal"
+    sidebars = "dark", -- style for sidebars, see below
+    floats = "dark", -- style for floating windows
+  },
+  light_brightness = 0.3, -- Adjusts the brightness of the colors of the **Light** style. Number between 0 and 1, from dull to vibrant colors
+  dim_inactive = false, -- dims inactive windows
+  lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
+
+  --- You can override specific color groups to use other groups or a hex color
+  --- function will be called with a ColorScheme table
+  ---@param colors ColorScheme
+  on_colors = function(colors) end,
+
+  --- You can override specific highlights to use other groups or a hex color
+  --- function will be called with a Highlights and ColorScheme table
+  ---@param highlights vercel.Highlights
+  ---@param colors ColorScheme
+  on_highlights = function(highlights, colors) end,
+
+  cache = true, -- When set to true, the theme will be cached for better performance
+
+  ---@type table<string, boolean|{enabled:boolean}>
+  plugins = {
+    -- enable all plugins when not using lazy.nvim
+    -- set to false to manually enable/disable plugins
+    all = package.loaded.lazy == nil,
+    -- uses your plugin manager to automatically enable needed plugins
+    -- currently only lazy.nvim is supported
+    auto = true,
+    -- add any plugins here that you want to enable
+    -- for all possible plugins, see:
+    --   * https://github.com/PunGrumpy/vercel.nvim/tree/main/lua/vercel/groups
+    -- telescope = true,
+  },
+}
+```
+
+<!-- config:end -->
+
+</details>
+
+### Overriding colors
+
+Change the palette in `on_colors`, then change highlight groups in `on_highlights`. See the [dark](extras/lua/vercel_dark.lua) and [light](extras/lua/vercel_light.lua) palettes for every value.
+
+```lua
+require("vercel").setup({
+  styles = {
+    comments = {},
+  },
+  on_colors = function(colors)
+    colors.hint = colors.orange
+  end,
+  on_highlights = function(hl, c)
+    hl.CursorLineNr = { fg = c.blue, bold = true }
+  end,
+})
+```
+
+### Supported plugins
+
+<details>
+<summary>Plugins</summary>
 
 <!-- plugins:start -->
 
@@ -93,139 +212,12 @@ same plugins and ships [extras](#-extras) for terminals and CLI tools.
 
 </details>
 
-## ⚡️ Requirements
+## Extras
 
-- [Neovim](https://github.com/neovim/neovim) >=
-  [0.8.0](https://github.com/neovim/neovim/releases/tag/v0.8.0)
-
-## 📦 Installation
-
-Install the theme with [lazy.nvim](https://github.com/folke/lazy.nvim):
-
-```lua
-{
-  "PunGrumpy/vercel.nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {},
-}
-```
-
-With [LazyVim](https://github.com/LazyVim/LazyVim), also set the color scheme:
-
-```lua
-{ "LazyVim/LazyVim", opts = { colorscheme = "vercel" } }
-```
-
-## 🚀 Usage
-
-```lua
-vim.cmd([[colorscheme vercel]])
-```
-
-`vercel` follows `vim.o.background`. To pin a style, use `vercel-dark` or
-`vercel-light`.
-
-For [lualine](https://github.com/nvim-lualine/lualine.nvim), set
-`theme = "vercel"`. [Barbecue](https://github.com/utilyre/barbecue.nvim) and
-[lightline](https://github.com/itchyny/lightline.vim) use the same name.
-
-## ⚙️ Configuration
-
-> [!IMPORTANT]
-> Call `setup` **before** you run `colorscheme vercel`.
-
-The theme uses the default options unless you call `setup`.
+Each extra is generated from the same palette. Run `./scripts/build` to regenerate them.
 
 <details>
-  <summary>Default Options</summary>
-
-<!-- config:start -->
-
-```lua
----@class vercel.Config
----@field on_colors fun(colors: ColorScheme)
----@field on_highlights fun(highlights: vercel.Highlights, colors: ColorScheme)
-M.defaults = {
-  style = "dark", -- The theme comes in two styles, `dark` and `light`
-  light_style = "light", -- The theme is used when the background is set to light
-  transparent = false, -- Enable this to disable setting the background color
-  terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
-  styles = {
-    -- Style to be applied to different syntax groups
-    -- Value is any valid attr-list value for `:help nvim_set_hl`
-    comments = { italic = true },
-    keywords = {},
-    functions = {},
-    variables = {},
-    -- Background styles. Can be "dark", "transparent" or "normal"
-    sidebars = "dark", -- style for sidebars, see below
-    floats = "dark", -- style for floating windows
-  },
-  light_brightness = 0.3, -- Adjusts the brightness of the colors of the **Light** style. Number between 0 and 1, from dull to vibrant colors
-  dim_inactive = false, -- dims inactive windows
-  lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
-
-  --- You can override specific color groups to use other groups or a hex color
-  --- function will be called with a ColorScheme table
-  ---@param colors ColorScheme
-  on_colors = function(colors) end,
-
-  --- You can override specific highlights to use other groups or a hex color
-  --- function will be called with a Highlights and ColorScheme table
-  ---@param highlights vercel.Highlights
-  ---@param colors ColorScheme
-  on_highlights = function(highlights, colors) end,
-
-  cache = true, -- When set to true, the theme will be cached for better performance
-
-  ---@type table<string, boolean|{enabled:boolean}>
-  plugins = {
-    -- enable all plugins when not using lazy.nvim
-    -- set to false to manually enable/disable plugins
-    all = package.loaded.lazy == nil,
-    -- uses your plugin manager to automatically enable needed plugins
-    -- currently only lazy.nvim is supported
-    auto = true,
-    -- add any plugins here that you want to enable
-    -- for all possible plugins, see:
-    --   * https://github.com/PunGrumpy/vercel.nvim/tree/main/lua/vercel/groups
-    -- telescope = true,
-  },
-}
-```
-
-<!-- config:end -->
-
-</details>
-
-## 🪓 Overriding Colors & Highlight Groups
-
-1. The theme builds `colors` from your configuration. Change them in
-   `on_colors(colors)`.
-1. It uses those `colors` to build the highlight groups. Change them in
-   `on_highlights(highlights, colors)`.
-
-See the [dark](extras/lua/vercel_dark.lua) and
-[light](extras/lua/vercel_light.lua) palettes for every value.
-
-```lua
-require("vercel").setup({
-  styles = {
-    comments = {},
-  },
-  on_colors = function(colors)
-    colors.hint = colors.orange
-  end,
-  on_highlights = function(hl, c)
-    hl.CursorLineNr = { fg = c.blue, bold = true }
-  end,
-})
-```
-
-## 🍭 Extras
-
-Generate the extras with `./scripts/build`.
+<summary>Extras</summary>
 
 <!-- extras:start -->
 
@@ -281,9 +273,8 @@ Generate the extras with `./scripts/build`.
 
 <!-- extras:end -->
 
-## 🙏 Credits
+</details>
 
-vercel.nvim is a fork of
-[tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by Folke Lemaitre.
-The colors come from Vercel's [Geist](https://vercel.com/geist/colors) design
-system.
+## Credits
+
+vercel.nvim is a fork of [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) by Folke Lemaitre. It is not affiliated with Vercel.
