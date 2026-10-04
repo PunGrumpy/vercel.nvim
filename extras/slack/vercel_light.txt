@@ -1,1 +1,1 @@
-#ffffff,#e4e4e4,#a664e2,#9cb4f0
+#eaeaea,#f2f2f2,#a000f8,#cae7ff

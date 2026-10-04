@@ -8,56 +8,56 @@ Color=255,255,255
 Color=255,255,255
 
 [Foreground]
-Color=81,81,81
+Color=23,23,23
 
 [ForegroundIntense]
-Color=81,81,81
+Color=23,23,23
 
 [Color0]
-Color=255,255,255
+Color=23,23,23
 
 [Color1]
-Color=210,42,56
+Color=252,0,53
 
 [Color2]
-Color=0,159,53
+Color=40,169,72
 
 [Color3]
-Color=148,99,0
+Color=255,174,0
 
 [Color4]
-Color=0,132,212
+Color=0,95,242
 
 [Color5]
-Color=166,100,226
+Color=160,0,248
 
 [Color6]
-Color=0,152,133
+Color=0,172,150
 
 [Color7]
-Color=129,129,129
+Color=77,77,77
 
 [Color0Intense]
-Color=103,103,103
+Color=168,168,168
 
 [Color1Intense]
-Color=210,42,56
+Color=252,0,53
 
 [Color2Intense]
-Color=0,159,53
+Color=40,169,72
 
 [Color3Intense]
-Color=148,99,0
+Color=255,174,0
 
 [Color4Intense]
-Color=0,132,212
+Color=0,95,242
 
 [Color5Intense]
-Color=166,100,226
+Color=160,0,248
 
 [Color6Intense]
-Color=0,152,133
+Color=0,172,150
 
 [Color7Intense]
-Color=81,81,81
+Color=23,23,23
 

@@ -5,7 +5,7 @@ assistant-output-color: "#ededed"
 # code-theme: vercel-dark
 
 completion-menu-color: "#ededed"
-completion-menu-bg-color: "#0a0a0a"
+completion-menu-bg-color: "#000000"
 completion-menu-current-color: "#ededed"
 completion-menu-current-bg-color: "#1a1a1a"
 
@@ -13,4 +13,4 @@ tool-error-color: "#f13242"
 tool-output-color: "#47a8ff"
 tool-warning-color: "#ffae00"
 
-user-input-color: "#00ac3a"
+user-input-color: "#00ca50"

@@ -18,5 +18,5 @@ palette = 15=#ededed
 background = #000000
 foreground = #ededed
 cursor-color = #ededed
-selection-background = #1f3e70
+selection-background = #003674
 selection-foreground = #ededed

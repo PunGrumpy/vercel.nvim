@@ -2,62 +2,62 @@
 Color=255,255,255
 
 [BackgroundIntense]
-Color=156,180,240
+Color=202,231,255
 
 [Foreground]
-Color=81,81,81
+Color=23,23,23
 
 [ForegroundIntense]
 Bold=true
-Color=81,81,81
+Color=23,23,23
 
 [Color0]
-Color=#ffffff
+Color=#171717
 
 [Color0Intense]
-Color=#676767
+Color=#a8a8a8
 
 [Color1]
-Color=#d22a38
+Color=#fc0035
 
 [Color1Intense]
-Color=#d22a38
+Color=#fc0035
 
 [Color2]
-Color=#009f35
+Color=#28a948
 
 [Color2Intense]
-Color=#009f35
+Color=#28a948
 
 [Color3]
-Color=#946300
+Color=#ffae00
 
 [Color3Intense]
-Color=#946300
+Color=#ffae00
 
 [Color4]
-Color=#0084d4
+Color=#005ff2
 
 [Color4Intense]
-Color=#0084d4
+Color=#005ff2
 
 [Color5]
-Color=#a664e2
+Color=#a000f8
 
 [Color5Intense]
-Color=#a664e2
+Color=#a000f8
 
 [Color6]
-Color=#009885
+Color=#00ac96
 
 [Color6Intense]
-Color=#009885
+Color=#00ac96
 
 [Color7]
-Color=#818181
+Color=#4d4d4d
 
 [Color7Intense]
-Color=#515151
+Color=#171717
 
 [General]
 Description=Vercel Light

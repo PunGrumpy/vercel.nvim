@@ -4,8 +4,8 @@
 *foreground: #ededed
 
 *color0: #000000
-*color1: #f13242
-*color2: #00ac3a
+*color1: #ff565f
+*color2: #00ca50
 *color3: #ffae00
 *color4: #47a8ff
 *color5: #9440d5
@@ -13,8 +13,8 @@
 *color7: #a0a0a0
 
 *color8: #878787
-*color9: #f13242
-*color10: #00ac3a
+*color9: #ff565f
+*color10: #00ca50
 *color11: #ffae00
 *color12: #47a8ff
 *color13: #9440d5

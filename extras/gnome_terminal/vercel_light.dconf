@@ -6,13 +6,13 @@
 
 [:<PROFILE_UUID>]
 background-color='rgb(255, 255, 255)'
-cursor-background-color='rgb(81, 81, 81)'
+cursor-background-color='rgb(23, 23, 23)'
 cursor-colors-set=true
 cursor-foreground-color='rgb(255, 255, 255)'
-foreground-color='rgb(81, 81, 81)'
-highlight-background-color='rgb(81, 81, 81)'
+foreground-color='rgb(23, 23, 23)'
+highlight-background-color='rgb(23, 23, 23)'
 highlight-colors-set=true
 highlight-foreground-color='rgb(255, 255, 255)'
-palette=['rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(166, 100, 226)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)', 'rgb(103, 103, 103)', 'rgb(210, 42, 56)', 'rgb(0, 159, 53)', 'rgb(148, 99, 0)', 'rgb(0, 132, 212)', 'rgb(166, 100, 226)', 'rgb(0, 152, 133)', 'rgb(81, 81, 81)']
+palette=['rgb(168, 168, 168)', 'rgb(216, 0, 27)', 'rgb(16, 125, 50)', 'rgb(255, 174, 0)', 'rgb(0, 95, 242)', 'rgb(160, 0, 248)', 'rgb(0, 172, 150)', 'rgb(23, 23, 23)', 'rgb(168, 168, 168)', 'rgb(216, 0, 27)', 'rgb(16, 125, 50)', 'rgb(255, 174, 0)', 'rgb(0, 95, 242)', 'rgb(160, 0, 248)', 'rgb(0, 172, 150)', 'rgb(23, 23, 23)']
 use-theme-colors=false
 visible-name='Vercel Light'

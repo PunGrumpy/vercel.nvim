@@ -1,25 +1,25 @@
 # Vercel
 
 # Syntax Highlighting Colors
-fish_color_normal 515151
-fish_color_command 009885
-fish_color_keyword a664e2
-fish_color_quote 946300
-fish_color_redirection 515151
-fish_color_end b26500
-fish_color_option a664e2
-fish_color_error d22a38
-fish_color_param bd55fa
-fish_color_comment 818181
-fish_color_selection --background=9cb4f0
-fish_color_search_match --background=9cb4f0
-fish_color_operator 009f35
-fish_color_escape a664e2
-fish_color_autosuggestion 818181
+fish_color_normal 171717
+fish_color_command 00ac96
+fish_color_keyword a000f8
+fish_color_quote ffae00
+fish_color_redirection 171717
+fish_color_end aa4d00
+fish_color_option a000f8
+fish_color_error d8001b
+fish_color_param 7d00cc
+fish_color_comment 4d4d4d
+fish_color_selection --background=cae7ff
+fish_color_search_match --background=cae7ff
+fish_color_operator 107d32
+fish_color_escape a000f8
+fish_color_autosuggestion 4d4d4d
 
 # Completion Pager Colors
-fish_pager_color_progress 818181
-fish_pager_color_prefix 009885
-fish_pager_color_completion 515151
-fish_pager_color_description 818181
-fish_pager_color_selected_background --background=9cb4f0
+fish_pager_color_progress 4d4d4d
+fish_pager_color_prefix 00ac96
+fish_pager_color_completion 171717
+fish_pager_color_description 4d4d4d
+fish_pager_color_selected_background --background=cae7ff
