@@ -12,49 +12,49 @@ Bold=true
 Color=23,23,23
 
 [Color0]
-Color=#171717
+Color=#24292f
 
 [Color0Intense]
-Color=#a8a8a8
+Color=#656a70
 
 [Color1]
-Color=#fc0035
+Color=#cf2f36
 
 [Color1Intense]
-Color=#fc0035
+Color=#a8242b
 
 [Color2]
-Color=#28a948
+Color=#18703a
 
 [Color2Intense]
-Color=#28a948
+Color=#0f5a2c
 
 [Color3]
-Color=#ffae00
+Color=#8a5300
 
 [Color3Intense]
-Color=#ffae00
+Color=#6b3f00
 
 [Color4]
-Color=#005ff2
+Color=#1a5fb4
 
 [Color4Intense]
-Color=#005ff2
+Color=#124a8c
 
 [Color5]
-Color=#a000f8
+Color=#7e3ab8
 
 [Color5Intense]
-Color=#a000f8
+Color=#622a92
 
 [Color6]
-Color=#00ac96
+Color=#0b7268
 
 [Color6Intense]
-Color=#00ac96
+Color=#085a52
 
 [Color7]
-Color=#4d4d4d
+Color=#4f5359
 
 [Color7Intense]
 Color=#171717
