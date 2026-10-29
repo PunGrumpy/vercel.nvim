@@ -14,50 +14,50 @@ Color=237,237,237
 Color=237,237,237
 
 [Color0]
-Color=0,0,0
+Color=26,26,26
 
 [Color1]
-Color=241,50,66
+Color=229,72,77
 
 [Color2]
-Color=0,172,58
+Color=99,193,116
 
 [Color3]
-Color=255,174,0
+Color=241,161,13
 
 [Color4]
-Color=71,168,255
+Color=82,169,255
 
 [Color5]
-Color=148,64,213
+Color=191,122,240
 
 [Color6]
-Color=0,170,149
+Color=10,197,179
 
 [Color7]
 Color=160,160,160
 
 [Color0Intense]
-Color=135,135,135
+Color=143,143,143
 
 [Color1Intense]
-Color=241,50,66
+Color=254,117,115
 
 [Color2Intense]
-Color=0,172,58
+Color=131,226,147
 
 [Color3Intense]
-Color=255,174,0
+Color=255,201,131
 
 [Color4Intense]
-Color=71,168,255
+Color=151,201,254
 
 [Color5Intense]
-Color=148,64,213
+Color=215,164,255
 
 [Color6Intense]
-Color=0,170,149
+Color=75,230,211
 
 [Color7Intense]
-Color=237,237,237
+Color=255,255,255
 

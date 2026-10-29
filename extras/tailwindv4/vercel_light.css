@@ -10,9 +10,9 @@
   --color-vercel-light-bg-statusline: var(--color-vercel-light-bg-dark);
   --color-vercel-light-bg-visual: oklch(from #cae7ff l c h);
   --color-vercel-light-black: oklch(from #ffffff l c h);
-  --color-vercel-light-black-bright: oklch(from #a8a8a8 l c h);
+  --color-vercel-light-black-bright: oklch(from #656a70 l c h);
   --color-vercel-light-blue: oklch(from #005ff2 l c h);
-  --color-vercel-light-blue-bright: oklch(from #005ff2 l c h);
+  --color-vercel-light-blue-bright: oklch(from #124a8c l c h);
   --color-vercel-light-blue0: oklch(from #cae7ff l c h);
   --color-vercel-light-blue1: oklch(from #005ff2 l c h);
   --color-vercel-light-blue2: oklch(from #006bff l c h);
@@ -23,7 +23,7 @@
   --color-vercel-light-border-highlight: oklch(from #337ff5 l c h);
   --color-vercel-light-comment: oklch(from #4d4d4d l c h);
   --color-vercel-light-cyan: oklch(from #00ac96 l c h);
-  --color-vercel-light-cyan-bright: oklch(from #00ac96 l c h);
+  --color-vercel-light-cyan-bright: oklch(from #085a52 l c h);
   --color-vercel-light-dark3: oklch(from #c9c9c9 l c h);
   --color-vercel-light-dark5: oklch(from #a8a8a8 l c h);
   --color-vercel-light-diff-add: oklch(from #c9ead1 l c h);
@@ -41,13 +41,13 @@
   --color-vercel-light-git-delete: oklch(from #d8001b l c h);
   --color-vercel-light-git-ignore: var(--color-vercel-light-dark3);
   --color-vercel-light-green: oklch(from #107d32 l c h);
-  --color-vercel-light-green-bright: oklch(from #28a948 l c h);
+  --color-vercel-light-green-bright: oklch(from #0f5a2c l c h);
   --color-vercel-light-green1: oklch(from #007f70 l c h);
   --color-vercel-light-green2: oklch(from #28a948 l c h);
   --color-vercel-light-hint: var(--color-vercel-light-teal);
   --color-vercel-light-info: var(--color-vercel-light-blue2);
   --color-vercel-light-magenta: oklch(from #a000f8 l c h);
-  --color-vercel-light-magenta-bright: oklch(from #a000f8 l c h);
+  --color-vercel-light-magenta-bright: oklch(from #622a92 l c h);
   --color-vercel-light-magenta2: oklch(from #f22782 l c h);
   --color-vercel-light-orange: oklch(from #aa4d00 l c h);
   --color-vercel-light-purple: oklch(from #7d00cc l c h);
@@ -60,11 +60,11 @@
   --color-vercel-light-rainbow7: var(--color-vercel-light-orange);
   --color-vercel-light-rainbow8: var(--color-vercel-light-red);
   --color-vercel-light-red: oklch(from #d8001b l c h);
-  --color-vercel-light-red-bright: oklch(from #fc0035 l c h);
+  --color-vercel-light-red-bright: oklch(from #a8242b l c h);
   --color-vercel-light-red1: oklch(from #fc0035 l c h);
   --color-vercel-light-teal: oklch(from #00ac96 l c h);
   --color-vercel-light-todo: var(--color-vercel-light-blue);
   --color-vercel-light-warning: var(--color-vercel-light-yellow);
   --color-vercel-light-yellow: oklch(from #ffae00 l c h);
-  --color-vercel-light-yellow-bright: oklch(from #ffae00 l c h);
+  --color-vercel-light-yellow-bright: oklch(from #6b3f00 l c h);
 }
